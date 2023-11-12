@@ -28,15 +28,12 @@
 
   <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" style="margin-top:20px;">
     <li><a href="#" class="nav-link px-2 "><div style="color: white; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 22px; word-wrap: break-word">Home </div></a></li>
-    <li><a href="#" class="nav-link px-2 "><div style="color: white; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 22px; word-wrap: break-word">About Us </div></a></li>
+    <li><a href="/about" class="nav-link px-2 "><div style="color: white; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 22px; word-wrap: break-word">About Us </div></a></li>
   </ul>
 
   <div class="col-md-3 text-end " style="margin-right: 128px; width:216px; height: 48px;">
-    <button class="gradient-border" style="margin-top:10px; width: 100%; height: 100%; padding-left: 24px; padding-right: 24px; padding-top: 12px; padding-bottom: 12px; background: #2C2C2C; border-radius: 8px; justify-content: space-between; align-items: flex-start; display: inline-flex">
-    <div style="text-align: center; font-size: 18px; font-family: Inter; font-weight: 500; line-height: 22px; word-wrap: break-word" class="gradient-text">Start ReImaging</div>
-    <div style="width: 24px; height: 24px; position: relative">
-        <img src="{{ url_for('static', filename='photos/buttonImg.png') }}" style="width: 100%; height: 100%; border-radius: 50%;">
-    </div>
+    <button style="margin-top:10px; width: 100%; height: 100%;  justify-content: space-between; align-items: flex-start; display: inline-flex; border: 1px transparent; background-color: transparent;">
+        <img src="{{ url_for('static', filename='photos/button.png') }}" style="width: 100%; height: 100%; ">
 </button>
 
   </div>
@@ -194,12 +191,12 @@
             </div>
         </div>
     </div>
+<div style="width: 1273px; height: 250px;position: relative; left: 18%; top: -100px;"><img style="width: 40%; height: 50%" src="{{ url_for('static', filename='photos/arr2.png') }}"></div>
 
 </div>
 
-
 <!--3Page -->
-<div style="width: 100%; height: 100%; padding: 128px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 104px; display: inline-flex">
+<div style="width: 100%; height: 100%; padding: 128px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 104px; display: inline-flex; position:relative; top:-250px;">
     <div style="width: 1664px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 128px; display: flex">
         <div style="width: 577px; justify-content: space-between; align-items: center; display: inline-flex">
             <div style="width: 64px; height: 64px; position: relative">
@@ -226,7 +223,7 @@
 </div>
 
 <!--4Page -->
-<div style="width: 100%; height: 100%; padding: 128px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 128px; display: inline-flex">
+<div style="width: 100%; height: 100%; padding: 128px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 128px; display: inline-flex; position:relative; top:-250px;">
     <div style="width: 556px; justify-content: space-between; align-items: center; display: inline-flex">
         <div style="width: 64px; height: 64px; position: relative">
                 <img src="{{ url_for('static', filename='photos/4Page/3.png') }}">
@@ -256,34 +253,74 @@
             </div>
             <img style="width: 336px; height: 180px" src="{{ url_for('static', filename='photos/4Page/inst1.png') }}" />
         </div>
-        <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex">
-            <div style="width: 400px; height: 96px;  border: 4px #BF5AF2 solid"></div>
+        <div style="justify-content: flex-start; align-items: flex-start; display: inline-flex; position: relative; left: -100px; ">
+            <div style="width: 658px; height: 458px; position: relative; left: 18%; top:-60px;"><img style="width:70%; height: 70%; " src="{{ url_for('static', filename='photos/arr1.png') }}"/></div>
             <img style="width:393px; height: 453px; " src="{{ url_for('static', filename='photos/4Page/inst2.png') }}" />
         </div>
     </div>
 </div>
 <!--5Page -->
-<div style="width: 100%; height: 100%; padding-top: 128px; border-top: 1px #64D2FF solid; border-bottom: 1px #64D2FF solid; backdrop-filter: blur(40px); flex-direction: column; justify-content: flex-start; align-items: center; gap: 56px; display: inline-flex">
-        <img src="{{ url_for('static', filename='photos/buttonImg.png') }}" style=" height: 100%; object-fit: cover; filter: blur(10px); position: absolute; top: 0; left: 40%; z-index: -1;" alt="Background Image">
+
+<hr style="border: 0; height: 2px; background: linear-gradient(94deg,  #0A84FF 0%, #64D2FF 48%, #BF5AF2 100%); position: relative; top:-250px;">
+<div  style="width: 100%; height: 100%; padding-top: 128px; border: 2px solid; border-image: linear-gradient(94deg, #BF5AF2 0%, #64D2FF 48%, #0A84FF 100%); flex-direction: column; justify-content: flex-start; align-items: center; gap: 56px; display: inline-flex; position:relative; top:-250px;">
+
+
+    <img src="{{ url_for('static', filename='photos/star.png') }}" style="height: 100%; object-fit: cover; filter: blur(20px); position: absolute; top: 0; left: 37.5%; z-index: -1;" alt="Background Image">
 
     <div style="width: 822px; height: 170px; flex-direction: column; justify-content: space-between; align-items: flex-start; display: flex">
         <div style="width: 830px; justify-content: space-between; align-items: flex-start; display: inline-flex">
-            <div style="width: 830px; text-align: center; color: white; font-size: 40px;  font-weight: 600; line-height: 48px; word-wrap: break-word">Join the ReImage Revolution</div>
+            <div style="width: 830px; text-align: center; color: white; font-size: 40px; font-weight: 600; line-height: 48px; word-wrap: break-word">Join the ReImage Revolution</div>
         </div>
         <div style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
             <div style="flex: 1 1 0; text-align: center; color: rgba(255, 255, 255, 0.70); font-size: 24px; font-weight: 700; line-height: 30px; word-wrap: break-word">Ready to transform your photos and ideas into art? Download the ReImage app now or explore our web platform. Start creating, start imagining, start ReImaging!</div>
         </div>
     </div>
-    <div style="width: 401px; justify-content: space-between; align-items: center; display: inline-flex; margin-bottom:70px;">
-        <div style="width: 184px; height: 56px; position: relative; border-radius: 8px;">
-                        <img style="width: 184px; height: 56px; position: absolute; " src="{{ url_for('static', filename='photos/appStore.png') }}" />
 
+    <div style="width: 401px; justify-content: space-between; align-items: center; display: inline-flex; margin-bottom: 70px;">
+        <button style="width: 184px; height: 56px; border-radius: 8px; border: 1px transparent; background-color: transparent; display: flex; justify-content: center; align-items: center;">
+            <img style="width: 100%; height: 100%;" src="{{ url_for('static', filename='photos/appStore.png') }}" />
+        </button>
+        <button style="width: 184px; height: 56px; border-radius: 8px; border: 1px transparent; background-color: transparent; display: flex; justify-content: center; align-items: center;">
+            <img style="width: 100%; height: 100%;" src="{{ url_for('static', filename='photos/googlePlay.png') }}" />
+        </button>
+    </div>
+</div>
+<hr style="border: 0; height: 2px; background: linear-gradient(94deg,  #0A84FF 0%, #64D2FF 48%, #BF5AF2 100%); position: relative; top:-250px;">
+
+<!--6Page -->
+<div style="width: 100%; height: 100%; padding-top: 128px; padding-bottom: 128px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 128px; display: inline-flex; position: relative; top:-270px;">
+    <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 16px; display: flex">
+        <div style="width: 701px; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+            <div style="flex: 1 1 0; text-align: center; color: white; font-size: 32px; font-weight: 600; line-height: 38px; word-wrap: break-word">Unlock Premium Features</div>
         </div>
-        <div style="width: 184px; height: 56px; position: relative; border-radius: 8px; overflow: hidden;">
-            <img style="width: 184px; height: 56px; position: absolute; " src="{{ url_for('static', filename='photos/googlePlay.png') }}" />
+        <div style="align-self: stretch; justify-content: center; align-items: flex-start; gap: 8px; display: inline-flex">
+            <div style="width: 701px; text-align: center; color: rgba(255, 255, 255, 0.70); font-size: 18px; font-weight: 500; line-height: 22px; word-wrap: break-word">Subscribe to ReImage for access to exclusive features and endless inspiration. Elevate your art and design with ReImage PRO</div>
         </div>
+    </div>
+    <div style="width: 1042px; justify-content: space-between; align-items: flex-start; display: inline-flex">
+        <img style="width: 360px; height: 640px" src="{{ url_for('static', filename='photos/6Page/screen1.png') }}" />
+        <img style="width: 345px; height: 640px; position:relative; right: 30px;" src="{{ url_for('static', filename='photos/6Page/screen3.png') }}" />
+        <img style="width: 385px; height: 640px; position:relative; right: 60px;" src="{{ url_for('static', filename='photos/6Page/screen2.png') }}" />
     </div>
 </div>
 
+<!--7Page -->
+
+<footer style="width: 100%; height: 400px; padding-top: 128px; padding-bottom: 128px; background: #121212; border-top: 1px rgba(142, 142, 147, 0.70) solid; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex;  position: relative;">
+    <div style="width: 178px; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="width: 60px; height: 60px; padding: 3.75px; background: white; box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.50); border-radius: 13px; overflow: hidden; justify-content: center; align-items: center; display: flex">
+            <div style="width: 52.50px; height: 52.50px; position: relative; background: white; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                <img src="{{ url_for('static', filename='photos/log.png') }}">
+            </div>
+        </div>
+        <div class="gradient-text" style=" font-size: 24px; font-family: Inter; font-weight: 700; line-height: 30px; word-wrap: break-word">ReImage</div>
+    </div>
+    <div style="color: rgba(255, 255, 255, 0.70); font-size: 18px; font-weight: 500; line-height: 22px; word-wrap: break-word">Copyright ©2023 ReImage</div>
+    <div style="justify-content: flex-start; align-items: flex-start; gap: 64px; display: inline-flex">
+        <a href="#" style="color: #8E8E93; font-size: 18px;  font-weight: 500; line-height: 22px; word-wrap: break-word; text-decoration: none;">Privacy Policy </a>
+        <a href="#" style="color: #8E8E93; font-size: 18px;  font-weight: 500; line-height: 22px; word-wrap: break-word;text-decoration: none;">Terms of Use </a>
+        <a href="#" style="color: #8E8E93; font-size: 18px;  font-weight: 500; line-height: 22px; word-wrap: break-word;text-decoration: none;">Contact </a>
+    </div>
+</footer>
 </body>
 </html>
