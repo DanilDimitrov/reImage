@@ -14,15 +14,15 @@ def about():
 def privacy_policy():
     return render_template("privacy-policy.html")
 
-@app.route('/termsOfUse')
+@app.route('/Terms-Of-Use')
 def termsOfUse():
     return render_template("termsOfUse.html")
 
-@app.route('/communitysGuidelines')
+@app.route('/Community\'s-Guidelines')
 def communitysGuidelines():
     return render_template("communitysGuidelines.html")
 
-@app.route('/subscriptionPolicy')
+@app.route('/Subscription-Policy')
 def subscriptionPolicy():
     return render_template("subscriptionPolicy.html")
 
