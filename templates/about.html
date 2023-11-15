@@ -12,6 +12,25 @@
   font-family: "Int";
   src: url("static/font/intR.ttf");
 }
+    @media screen and (min-width: 1024px) and (max-width: 1440px) {
+        .textAbout{
+            position: relative;
+            right: 70px;
+        }
+        .imgAbout{
+    width: 700px;
+    height: 650px;
+    border-radius: 8px;
+    margin-right: 133px;
+    position: relative;
+    right: 30%;        }
+    }
+
+    @media screen and (min-width: 1441px) and (max-width: 2000px) {
+        .imgAbout{
+        width:840px; height: 740px; border-radius: 8px; margin-right:128px;
+        }
+    }
 </style>
 <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
   <div class="col-md-6 mb-2 mb-md-0" style="margin-left: 125px; display: flex; width: 178px; justify-content: space-between; align-items: center; height: 60px; margin-top: 20px;">
@@ -20,23 +39,12 @@
     </a>
   </div>
 
-<!--  <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0" style="margin-top:0px; font-family: IntR;">-->
-<!--    <li><a href="#" class="nav-link px-2 "><div style="color: white; font-size: 18px;  font-weight: 500; line-height: 22px; word-wrap: break-word">Home </div></a></li>-->
-<!--    <li><a href="/about" class="nav-link px-2 "><div style="color: white; font-size: 18px; font-weight: 500; line-height: 22px; word-wrap: break-word">About Us </div></a></li>-->
-<!--  </ul>-->
-
-<!--  <div class="col-md-3 text-end " style="margin-right: 128px; width:216px; height: 48px; position:relative; top:-10px;">-->
-<!--    <button style="margin-top:10px; width: 100%; height: 100%;  justify-content: space-between; align-items: flex-start; display: inline-flex; border: 1px transparent; background-color: transparent;">-->
-<!--        <img src="{{ url_for('static', filename='photos/button.png') }}" style="width: 100%; height: 100%; ">-->
-<!--</button>-->
-
-<!--  </div>-->
 </header>
 <hr style="border: 0; height: 2px; background: linear-gradient(94deg,  #0A84FF 0%, #64D2FF 48%, #BF5AF2 100%); position:relative; top:-20px;">
 
 <body style="background-color: #1c1c1e; overflow-x: hidden; font-family: Int;">
 <div style="width: 100%;  overflow-x: hidden; height: 100%; padding-left: 128px; padding-right: 128px; padding-top: 158px; padding-bottom: 158px; justify-content: space-between; align-items: flex-start; display: inline-flex">
-    <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 128px; display: inline-flex">
+    <div class="textAbout" style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 128px; display: inline-flex">
         <div style="width: 261px; color: white; font-size: 40px; font-weight: 600; line-height: 48px; word-wrap: break-word; ">About Us</div>
         <div style="flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 40px; display: flex">
             <div style="width: 822px; color: white; font-size: 32px;  font-weight: 600; line-height: 38px; word-wrap: break-word">Welcome to Mobile app int, LLC</div>
@@ -76,7 +84,7 @@
             </div>
         </div>
     </div>
-    <img style="width:840px; height: 740px; border-radius: 8px; margin-right:128px;" src="{{ url_for('static', filename='photos/photoWeb.png') }}" />
+    <img class="imgAbout" style="" src="{{ url_for('static', filename='photos/photoWeb.png') }}" />
 </div>
 <footer style="width: 100%; height: 470px; padding-top: 128px;  background: #121212; border-top: 1px rgba(142, 142, 147, 0.70) solid; flex-direction: column; justify-content: flex-start; align-items: center; gap: 40px; display: inline-flex;  position: relative; top:10px;">
     <div style="color: rgba(255, 255, 255, 0.70); font-size: 18px; font-weight: 500; line-height: 22px; word-wrap: break-word">Copyright ©2023 ReImage</div>
