@@ -1,0 +1,246 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.gradient-border {
+    border: 1px solid;
+    border-color: linear-gradient(94deg, #BF5AF2 0%, #64D2FF 48%, #0A84FF 100%);
+    }
+
+
+    .gradient-text {
+    background: -o-linear-gradient(356deg, #BF5AF2 0%, #64D2FF 48%, #0A84FF 100%);
+    background: linear-gradient(94deg, #BF5AF2 0%, #64D2FF 48%, #0A84FF 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+
+    @font-face {
+    font-family: "Int";
+    src: url("../font/inter.ttf");
+    }
+
+    @font-face {
+    font-family: "IntR";
+    src: url("../font/intR.ttf");
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 1445px) {
+        .mainText1{
+            width: 530px;
+            position: relative;
+            left: 280px;
+        }
+         .mainText2{
+    width: 568px;
+    position: relative;
+    left: 275px;
+         }
+        .divText{
+            position: relative;
+    right: 40px;
+        }
+        .buttonsApp{
+        position: relative;
+    top: 163px;
+    left: 275px;
+        }
+        .phonesDiv1{
+            width: 580px;
+            height:502px;
+            position: relative;
+            right: 200px;
+        }
+        .phone1{width: 282px;
+    height: 502px;}
+        .phone2{width: 276px;
+    height: 502px;}
+        .scrollMouse{
+            position: relative;
+    top: 50px;
+        }
+        .text2{
+            position: relative;
+            left: -40px;
+        }
+        .Big2Page{
+             width: 785px;
+    height: 1060px;
+    top: -100px;
+    left: -46px;
+         }
+        .Big2PageDiv1{
+width: 295px;
+    height: 600px;
+    padding: 16px;
+    left: 274px;
+    top: 36px;         }
+         .Big2PageDiv2{
+width: 295px;
+    height: 600px;
+    padding: 12px;
+    left: 0px;
+    top: 200px;         }
+        .beforeAfter{
+            width: 516px;
+            height: 779px;
+            position: relative;
+            top: -210px;
+         }
+        .beforeAfterDiv1{
+         width: 540.18px;
+         }
+        .beforeAfterImgDiv1{
+        width: 312px;
+    height: 220px;
+         }
+        .beforeAfterImgDivWithImgs1{
+width: 299px;
+    height: 220px;
+}
+        .beforeAfterDiv2{
+         width: 430.17999999999995px;
+         }
+        .beforeAfterImgDiv2{
+    width: 268px;
+    height: 320px;
+        }
+        .beforeAfterDiv3{
+            width: 611.51px;
+         }
+        .beforeAfterImgDiv3{
+             width: 281px;
+    height: 220px;
+         }
+        .beforeAfterDiv4{
+    width: 609.18px;
+        }
+        .beforeAfterImgDiv4{
+    width: 312px;
+    height: 220px;
+        }
+    .arr2{
+             width: 905px;
+    height: 250px;
+    position: relative;
+    left: 5%;
+    top: -260px;
+    -webkit-transform: rotate(24deg);
+        -ms-transform: rotate(24deg);
+            transform: rotate(24deg);
+         }
+        .beforeAfterImg41{
+            width: 170px;
+    height: 255px;
+    right: 19px
+         }
+        .text3Page{
+                position: relative;
+                left: 250px;
+     }
+        .Page4{
+          left:6.5%;
+         }
+        .igmStar{
+            left: 32%;
+        }
+    .textAbout{
+            position: relative;
+            right: 70px;
+        }
+        .imgAbout{
+    width: 700px;
+    height: 650px;
+    border-radius: 8px;
+    margin-right: 133px;
+    position: relative;
+    right: 30%;        }
+
+        .textAboutBottom{
+            width: 510px;
+        }
+    }
+     @media screen and (min-width: 1446px) and (max-width: 2000px) {
+        .mainText1{
+            width: 830px;
+
+        }
+         .mainText2{
+    width: 677px;
+         }
+.phone1{width: 336px; height: 640px}
+        .phone2{width: 380px; height: 640px}
+
+         .buttonsApp{
+    top: 56px;
+
+        }
+         .Big2Page{
+         width: 812px; height: 1060px;
+         }
+         .Big2PageDiv1{
+         width: 423px; height: 860px; padding: 24px; left: 389px; top: 0px;
+         }
+         .Big2PageDiv2{
+         width: 423px; height: 860px; padding: 24px; left: 0px; top: 200px;
+         }
+         .beforeAfter{
+         width: 726px; height: 1132px;
+         }
+         .beforeAfterDiv1{
+         width: 726.18px;
+         }
+         .beforeAfterImgDiv1{
+         width: 312px; height: 220px;
+         }
+.beforeAfterImgDivWithImgs1{
+width: 312px; height: 220px;
+}
+         .beforeAfterDiv2{
+         width: 726.18px;
+         }
+         .beforeAfterImgDiv2{
+         width: 312px; height: 220px;
+         }
+         .beforeAfterDiv3{
+         width: 723.51px;
+         }
+         .beforeAfterImgDiv3{
+         width: 312px; height: 220px;
+         }
+         .beforeAfterDiv4{
+         width: 726.18px;
+         }
+         .beforeAfterImgDiv4{
+         width: 312px; height: 220px;
+         }
+         .arr2{
+         width: 1273px; height: 250px;position: relative; left: 18%; top: -100px;
+         }
+         .beforeAfterImg41{
+         width: 228px; height: 255px; right: 40px;
+         }
+
+         .Page4{
+          left:23.5%;
+         }
+         .igmStar{
+         left: 37.5%;
+         }
+    .imgAbout{
+        width:840px; height: 740px; border-radius: 8px; margin-right:128px;
+        }
+        .textAboutBottom{
+            width: 750px;
+        }
+     }
