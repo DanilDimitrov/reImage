@@ -4,7 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return render_template("index.html")
+    user_agent = request.headers.get('User-Agent')
+    if is_mobile(user_agent):
+        return render_template("mobile_index.html")
+    else:
+        return render_template("index.html")
 
 @app.route('/about')
 def about():
@@ -25,6 +29,9 @@ def communitysGuidelines():
 @app.route('/Subscription-Policy')
 def subscriptionPolicy():
     return render_template("subscriptionPolicy.html")
+
+def is_mobile(user_agent):
+    return True if 'Mobile' in user_agent else False
 
 if __name__ == "__main__":
     app.run()

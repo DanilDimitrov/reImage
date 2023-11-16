@@ -35,7 +35,119 @@
     src: url("../font/intR.ttf");
     }
 
-    @media screen and (min-width: 0px) and (max-width: 1445px) {
+    @media screen and (min-width: 0) and (max-width: 768px) {
+    .imgHeader{
+        position: relative;
+        right: 130px;
+    }
+    .Page1{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .divText{
+            position: relative;
+    right: 40px;
+            height: 356px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-flex;
+        }
+        .mainText1{
+         width: 90%;
+        position: relative;
+        left: 9%;
+        font-size: 24px;
+    }
+        .buttonsApp2Button{
+            margin-top: 20px;
+    }
+    .mainTextBottom1{
+        width: 90%;
+        position: relative;
+        left: 9%;
+        font-size: 24px;
+    }
+    .mainTextBottom2{
+        width: 90%;
+        position: relative;
+        left: 9%;
+        font-size: 18px;
+    }
+    .mainText2{
+        width: 90%;
+    position: relative;
+    left: 8%;
+    }
+    .mainTextBottom3{
+        font-size: 18px;
+    }
+    .buttonsApp{
+        width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    left: 25%;
+            margin-left: 10%;
+
+    margin-top: 27px;
+    }
+    .scrollMouse{
+        display: none;
+    }
+    .phone1{
+        width: 141px;
+    height: 241px;
+    }
+     .phone2{
+        width: 141px;
+    height: 241px;
+    }
+
+    .2Page{
+            padding-top: 100px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+    display: inline-flex;
+    }
+    .2PageMainText{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        width: 100%;
+        margin-left: 30%;
+    }
+
+
+}
+
+    @media screen and (min-width: 1025px) and (max-width: 1445px) {
+    .2PageMainText{
+font-size: 40px; font-weight: 600; line-height: 48px;    }
+
+    .Page1{
+        width: 1664px;
+    }
+
+    .2Page{
+         padding: 128px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 104px; display: inline-flex
+    }
+
+        .mainTextBottom3{
+        font-size: 24px;
+    }
+        .mainTextBottom1{
+        width: 100%;
+        font-size: 72px;
+    }
+         .mainTextBottom2{
+        width: 100%
+        font-size: 24px;
+    }
         .mainText1{
             width: 530px;
             position: relative;
@@ -49,11 +161,13 @@
         .divText{
             position: relative;
     right: 40px;
+        height: 408px;
         }
         .buttonsApp{
         position: relative;
     top: 163px;
     left: 275px;
+        width: 401px;
         }
         .phonesDiv1{
             width: 580px;
@@ -67,7 +181,8 @@
     height: 502px;}
         .scrollMouse{
             position: relative;
-    top: 50px;
+        display: inline-flex;
+    top: 80px;
         }
         .text2{
             position: relative;
@@ -92,10 +207,10 @@ width: 295px;
     left: 0px;
     top: 200px;         }
         .beforeAfter{
-            width: 516px;
+            width: 766px;
             height: 779px;
             position: relative;
-            top: -210px;
+            top: -180px;
          }
         .beforeAfterDiv1{
          width: 540.18px;
@@ -130,14 +245,12 @@ width: 299px;
     height: 220px;
         }
     .arr2{
-             width: 905px;
+               width: 905px;
     height: 250px;
     position: relative;
-    left: 5%;
-    top: -260px;
-    -webkit-transform: rotate(24deg);
-        -ms-transform: rotate(24deg);
-            transform: rotate(24deg);
+    left: 18%;
+    transform: rotate(353deg);
+    margin-top: -480px;
          }
         .beforeAfterImg41{
             width: 170px;
@@ -171,8 +284,33 @@ width: 299px;
         }
     }
      @media screen and (min-width: 1446px) and (max-width: 2000px) {
+    .2PageMainText{
+        font-size: 40px; font-weight: 600; line-height: 48px;
+    }
+      .mainTextBottom3{
+        font-size: 24px;
+    }
+   .2Page{
+         padding: 128px; flex-direction: column; justify-content: flex-start; align-items: center; gap: 104px; display: inline-flex
+    }
+      .mainTextBottom2{
+        width: 100%
+        font-size: 24px;
+    }
+     .Page1{
+        width: 1664px;
+    }
+        .mainTextBottom1{
+        width: 100%;
+        font-size: 72px;
+    }
         .mainText1{
             width: 830px;
+
+        }
+        .divText{height: 408px;}
+ .scrollMouse{
+        display: inline-flex
 
         }
          .mainText2{
@@ -183,6 +321,7 @@ width: 299px;
 
          .buttonsApp{
     top: 56px;
+        width: 401px;
 
         }
          .Big2Page{
@@ -195,7 +334,7 @@ width: 299px;
          width: 423px; height: 860px; padding: 24px; left: 0px; top: 200px;
          }
          .beforeAfter{
-         width: 726px; height: 1132px;
+         width: 790px; height: 1132px;
          }
          .beforeAfterDiv1{
          width: 726.18px;
