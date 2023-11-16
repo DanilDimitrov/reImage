@@ -12,7 +12,12 @@ def main():
 
 @app.route('/about')
 def about():
-    return render_template("about.html")
+    user_agent = request.headers.get('User-Agent')
+    if is_mobile(user_agent):
+        return render_template("mobile_about.html")
+    else:
+        return render_template("about.html")
+
 
 @app.route('/privacy-policy')
 def privacy_policy():
